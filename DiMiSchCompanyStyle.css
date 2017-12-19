@@ -1,0 +1,136 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: flex;
+  	flex-direction: column;
+}
+
+header {
+	background-color: #C70039; 
+	border-width: 3px; 
+	border-color: #C70039; 
+	border-style: solid;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: auto;
+}
+
+footer {
+	background-color: #C70039; 
+	border-width: 3px; 
+	border-color: #C70039; 
+	border-style: solid;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+	margin-top: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.7em;
+	margin: 1%;
+	color: #000000;
+}
+
+nav {
+	background-color: #C70039; 
+	border-width: 3px;
+	border-top-width: 0;
+	border-color: #C70039; 
+	border-style: solid;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: auto;
+	margin-bottom: 10px;
+	border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 0%;
+	font-size : 1em;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+#menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#menu .li {
+	display:inline-block;
+	width: 33.15%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+}
+
+#menu a {
+	width: 100%;
+	display: block;
+}
+
+#menu div:hover {
+	background-color: yellow;
+}
+
+#menu div:active {
+	background-color: #FBFB5B;
+}
+
+#menucenter {
+	border-right: 3px #FFFFFF solid;
+	border-left: 3px #FFFFFF solid;
+}
+
+a:link, a:visited {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+}
+
+p {
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+}
+
+#prof {
+	display: flex;
+	justify-content: center;
+    text-align: center;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#prof .pli {
+	border: #ff00d5 solid;
+    display: inline-block;
+    margin: 0.2em;
+    width: 30%;
+    font-family: arial;
+}
+
+#profcenter {
+	border-right: 3px #FFFFFF solid;
+	border-left: 3px #FFFFFF solid;
+}
+
+#content {
+	margin-top: 150px;
+}
