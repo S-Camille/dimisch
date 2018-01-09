@@ -64,13 +64,11 @@ html, body {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-		background-color: #C70039; 
+	background-color: #C70039; 
 	border-color: #C70039; 
-
 	border-width: 3px;
 	border-top-width: 0;
 	border-style: solid;
-
 }
 
 #menu .li {
@@ -96,6 +94,7 @@ html, body {
 	width: 70%;
 	margin-top: 15%;
 }
+
 aside {
 	width: 771px;
 	height: 100%;
@@ -111,12 +110,23 @@ aside img {
 	width: 100%;
 }
 
+table {
+	border: 2px solid black;
+	margin: auto;
+	width: 70%;
+}
+
+table tr td {
+	border: 2px solid black;
+}
+
 #contenu {
 	display: flex;
 }
 #blabla {
 	width: 70%;
 }
+
 #menucenter {
 	border-right: 3px #FFFFFF solid;
 	border-left: 3px #FFFFFF solid;
@@ -151,10 +161,12 @@ p {
     font-family: arial;
     overflow: hidden;
 }
+
 #profcenter img {
     height: 347px;
     margin-top: 0;
 }
+
 .pli div {
 	height: 348px;
 	overflow: hidden;
