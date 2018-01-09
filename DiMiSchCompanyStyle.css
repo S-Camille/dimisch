@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	display: flex;
   	flex-direction: column;
+  	background: lightgrey;
 }
 
 header {
@@ -40,12 +41,8 @@ h1 {
 	color: #000000;
 }
 
+
 nav {
-	background-color: #C70039; 
-	border-width: 3px;
-	border-top-width: 0;
-	border-color: #C70039; 
-	border-style: solid;
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
@@ -67,6 +64,13 @@ html, body {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
+		background-color: #C70039; 
+	border-color: #C70039; 
+
+	border-width: 3px;
+	border-top-width: 0;
+	border-style: solid;
+
 }
 
 #menu .li {
@@ -84,13 +88,35 @@ html, body {
 }
 
 #menu div:hover {
-	background-color: yellow;
+	background-color: grey;
 }
 
-#menu div:active {
-	background-color: #FBFB5B;
+#company {
+	margin: auto;
+	width: 70%;
+	margin-top: 15%;
+}
+aside {
+	width: 80%;
+	height: 100%;
+	float: left;
 }
 
+aside ul li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+aside img {
+	width: 100%;
+}
+
+#contenu {
+	display: flex;
+}
+#blabla {
+	width: 70%;
+}
 #menucenter {
 	border-right: 3px #FFFFFF solid;
 	border-left: 3px #FFFFFF solid;
@@ -119,11 +145,30 @@ p {
 }
 
 #prof .pli {
-	border: #ff00d5 solid;
     display: inline-block;
     margin: 0.2em;
     width: 30%;
     font-family: arial;
+    overflow: hidden;
+}
+#profcenter img {
+    height: 347px;
+    margin-top: 0;
+}
+.pli div {
+	height: 348px;
+	overflow: hidden;
+}
+
+.pli img {
+	width: 100%;
+    margin-top: -95px;
+}
+
+#desc img {
+	margin: auto;
+	display: block;
+	width: 250px;
 }
 
 #profcenter {
@@ -131,6 +176,18 @@ p {
 	border-left: 3px #FFFFFF solid;
 }
 
+#profilimg {
+	width: 290px;
+    overflow: hidden;
+    margin: auto;
+    height: 311px;
+}
+
+#profilimg img {
+	width: 100%;
+    margin-top: -64px;
+}
+
 #content {
-	margin-top: 150px;
+	margin-top: 50px;
 }
